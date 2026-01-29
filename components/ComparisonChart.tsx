@@ -10,7 +10,7 @@ import {
   Cell,
   LabelList
 } from 'recharts';
-import { TaxResult } from '../types';
+import { TaxResult } from '../types.ts';
 
 interface ComparisonChartProps {
   data: TaxResult;

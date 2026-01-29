@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Calculator, Landmark, Scale, TrendingUp, TrendingDown, Info, TurkishLira } from 'lucide-react';
-import { calculateTax, formatCurrency, formatPercent } from './utils/taxLogic';
-import { TaxResult } from './types';
-import ResultCard from './components/ResultCard';
-import ComparisonChart from './components/ComparisonChart';
+import { calculateTax, formatCurrency, formatPercent } from './utils/taxLogic.ts';
+import { TaxResult } from './types.ts';
+import ResultCard from './components/ResultCard.tsx';
+import ComparisonChart from './components/ComparisonChart.tsx';
 
 const App: React.FC = () => {
   const [incomeInput, setIncomeInput] = useState<string>('600000');

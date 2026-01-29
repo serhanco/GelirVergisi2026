@@ -1,4 +1,4 @@
-import { TaxResult } from '../types';
+import { TaxResult } from '../types.ts';
 
 /**
  * Calculates the Income Tax based on 2026 Wage Earner (Ücretli) brackets.
